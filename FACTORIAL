@@ -1,0 +1,20 @@
+
+
+
+for i in 1..100
+puts "Please enter any number from 0 to 99"
+capture_Num = gets.chomp.to_i
+  if capture_Num < 0
+    puts "Please select a valid number"
+  elsif capture_Num > 99
+    puts "Please select a valid number"
+    else break
+  end
+end
+answer = 1
+for i in capture_Num.downto(1)
+  puts " #{i}"
+  answer=answer*i
+
+end
+puts answer

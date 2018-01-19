@@ -1,0 +1,12 @@
+
+my_value = rand(1..10)
+puts my_value
+sum1 = 0
+my_array=[]
+for i in 1..my_value
+  my_array[i] = rand(1..999)
+  sum1 = sum1+my_array[i]
+  puts my_array[i]
+end
+puts sum1
+puts sum1/my_value

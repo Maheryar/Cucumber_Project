@@ -1,0 +1,12 @@
+i = 0
+
+loop do
+i=i+1
+a= rand(1..100)
+b = rand (1..100)
+puts "#{a}  #{b}"
+break if a==b
+
+
+end
+puts i

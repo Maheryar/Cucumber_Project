@@ -1,0 +1,6 @@
+
+require 'ruby gem'
+require 'watir-webdriver'
+
+ffbrowser=watir:: Browser.new:firefox
+ffbrowser.goto 'http//www.facebook.com'
